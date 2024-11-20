@@ -32,7 +32,7 @@ Ngày sinh: $birthday.\r \n
 Giới tính: $gender.\r \n
 Môn thi: $message \r \n.
 Tổ Hợp thi: $tohop";
-  $mail->AddAddress("tranvuhoaphat1@gmail.com");
+  $mail->AddAddress("trinhtung.c3mtt@soctrang.edu.vn");
 
    if(!$mail->Send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
