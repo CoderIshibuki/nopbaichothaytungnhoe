@@ -26,12 +26,12 @@ require("PHPMailer-PHPMailer-cd72ef3/src/Exception.php");
   $mail->SetFrom("tranvuhoaphat1@gmail.com");
   $mail->Subject = "Thong Tin Bieu Mau Dang Ky Thi THPT Quoc Gia";
   $mail->Body = "Họ và tên: $name. \r \n
-Lớp: $class.\r \n
-Căn Cước Công Dân: $cccd.\r \n
-Ngày sinh: $birthday.\r \n
-Giới tính: $gender.\r \n
-Môn thi: $message \r \n.
-Tổ Hợp thi: $tohop";
+Lớp: $class,\r \n
+Căn Cước Công Dân: $cccd,\r \n
+Ngày sinh: $birthday,\r \n
+Giới tính: $gender,\r \n
+Môn thi: $message, \r \n.
+Tổ Hợp thi: $tohop.";
   $mail->AddAddress("trinhtung.c3mtt@soctrang.edu.vn");
 
    if(!$mail->Send()) {
@@ -41,7 +41,5 @@ Tổ Hợp thi: $tohop";
    }
 
 ?>
-</body>
-</html>
 
 
