@@ -22,7 +22,7 @@ require("PHPMailer-PHPMailer-cd72ef3/src/Exception.php");
   $mail->Port = 465; // or 587
   $mail->IsHTML(true);
   $mail->Username = "tranvuhoaphat1@gmail.com";
-  $mail->Password = "atloxwhxrlflcdws"; // mật khẩu được mã hoá rồi đừng cố vào nhé:D
+  $mail->Password = "atloxwhxrlflcdws"; // mật khẩu đã được mã hoá
   $mail->SetFrom("tranvuhoaphat1@gmail.com");
   $mail->Subject = "Thong Tin Bieu Mau Dang Ky Thi THPT Quoc Gia";
   $mail->Body = "Họ và tên: $name. \r \n
